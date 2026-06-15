@@ -70,11 +70,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
         >
-          <div className={styles.bottomLeft}>
-            <span className={styles.availability}>
-               <span className={styles.pulse} /> AVAILABLE FOR ROLES
-            </span>
-          </div>
+          <div className={styles.bottomLeft}></div>
           <div className={styles.bottomRight}>
             <span className={styles.scrollText}>SCROLL TO EXPLORE</span>
           </div>
